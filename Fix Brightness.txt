@@ -1,0 +1,5 @@
+download kext and patch: https://bitbucket.org/RehabMan/applebacklightfixup/downloads/
+EFI > config.plist > kernel and kext to pacth > add KextToPatch:
+name: com.apple.driver.AppleBacklight
+find: 46257554 25303478 00
+replace: 46257554 78787878 00
